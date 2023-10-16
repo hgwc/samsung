@@ -1,0 +1,15 @@
+{
+    "cmake.configureOnOpen": false,
+    "files.associations": {
+        "st_dev.h": "c",
+        "stdio.h": "c",
+        "string.h": "c",
+        "caps_activitylightingmode.h": "c",
+        "caps_switch.h": "c",
+        "caps_fanspeed.h": "c",
+        "iot_caps_helper_fanspeed.h": "c",
+        "caps_mode.h": "c",
+        "iot_caps_helper_mode.h": "c",
+        "iot_caps_helper.h": "c"
+    }
+}

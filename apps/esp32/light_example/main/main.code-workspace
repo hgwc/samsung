@@ -1,0 +1,36 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+    ],
+    "settings": {
+        "files.associations": {
+            "st_dev.h": "c",
+            "caps_fanspeed.h": "c",
+            "iot_caps_helper_fanspeed.h": "c",
+            "iot_caps_helper.h": "c",
+            "iot_caps_helper_dustsensor.h": "c",
+            "caps_mode.h": "c",
+            "iot_caps_helper_mode.h": "c",
+            "caps_switch.h": "c",
+            "iot_caps_helper_switch.h": "c",
+            "iot_caps_helper_tvocmeasurement.h": "c",
+            "caps_carbondioxidemeasurement.h": "c",
+            "iot_caps_helper_carbondioxidemeasurement.h": "c",
+            "dev_common.h": "c",
+            "caps_tvochealthconcern.h": "c",
+            "iot_caps_helper_tvochealthconcern.h": "c",
+            "iot_caps_helper_dusthealthconcern.h": "c",
+            "iot_caps_helper_relativehumiditymeasurement.h": "c",
+            "caps_relativehumiditymeasurement.h": "c",
+            "caps_signalstrength.h": "c",
+            "iot_caps_helper_signalstrength.h": "c",
+            "iot_caps_helper_panicalarm.h": "c",
+            "caps_filterstatus.h": "c",
+            "iot_caps_helper_filterstatus.h": "c",
+            "iot_caps_helper_finedusthealthconcern.h": "c",
+            "ota_util.h": "c"
+        }
+    }
+}

@@ -1,0 +1,589 @@
+apps/esp32/switch_example/main/iot_uart_cli.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp32/switch_example/main/iot_uart_cli.c:            vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp32/switch_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp32/switch_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp32/switch_example/main/main.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/esp32/ota_demo/main/iot_uart_cli.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp32/ota_demo/main/iot_uart_cli.c:            vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp32/ota_demo/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp32/ota_demo/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp32/ota_demo/main/main.c:            vTaskDelay(600 * 1000 / portTICK_PERIOD_MS);
+apps/esp32/ota_demo/main/main.c:        vTaskDelay(30 * 1000 / portTICK_PERIOD_MS);
+apps/esp32/ota_demo/main/main.c:	vTaskDelay(task_delay_sec * 1000 / portTICK_PERIOD_MS);
+apps/esp32/ota_demo/main/main.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/esp32/light_example/main/main_1.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/esp32/light_example/main/iot_uart_cli.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp32/light_example/main/iot_uart_cli.c:            vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp32/light_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp32/light_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp32/light_example/main/main.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/rtl8195/switch_example/main/switch_main.c:		vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/rtl8195/switch_example/main/device_control.c:		vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/rtl8195/switch_example/main/device_control.c:		vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/rtl8195/light_example/main/device_control.c:		vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/rtl8195/light_example/main/device_control.c:		vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/rtl8195/light_example/main/light_main.c:	   vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/emw3166/switch_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/emw3166/switch_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/emw3166/switch_example/main/main.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/emw3166/light_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/emw3166/light_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/emw3166/light_example/main/main.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/esp32s2/light_example/main/iot_uart_cli.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp32s2/light_example/main/iot_uart_cli.c:            vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp32s2/light_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp32s2/light_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp32s2/light_example/main/main.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/rtl8720c/switch_example/main/switch_main.c:		vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/rtl8720c/switch_example/main/device_control.c:		vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/rtl8720c/switch_example/main/device_control.c:		vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/rtl8720c/light_example/main/device_control.c:		vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/rtl8720c/light_example/main/device_control.c:		vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/rtl8720c/light_example/main/light_main.c:		vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/rtl8721c/switch_example/main/switch_main.c:		vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/rtl8721c/switch_example/main/device_control.c:		vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/rtl8721c/switch_example/main/device_control.c:		vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/rtl8721c/light_example/main/device_control.c:		vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/rtl8721c/light_example/main/device_control.c:		vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/rtl8721c/light_example/main/light_main.c:	   vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/esp8266/switch_example/main/iot_uart_cli.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp8266/switch_example/main/iot_uart_cli.c:            vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp8266/switch_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp8266/switch_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp8266/switch_example/main/main.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/esp8266/light_example/main/iot_uart_cli.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp8266/light_example/main/iot_uart_cli.c:            vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp8266/light_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp8266/light_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp8266/light_example/main/main.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/esp32c3/switch_example/main/iot_uart_cli.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp32c3/switch_example/main/iot_uart_cli.c:            vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp32c3/switch_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp32c3/switch_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp32c3/switch_example/main/main.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+apps/esp32c3/light_example/main/iot_uart_cli.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp32c3/light_example/main/iot_uart_cli.c:            vTaskDelay(100 / portTICK_PERIOD_MS);
+apps/esp32c3/light_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp32c3/light_example/main/device_control.c:        vTaskDelay(delay / portTICK_PERIOD_MS);
+apps/esp32c3/light_example/main/main.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/wifi_provisioning/src/manager.c:    vTaskDelay(cleanup_delay / portTICK_PERIOD_MS);
+bsp/esp32/components/wifi_provisioning/src/manager.c:            vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/components/wifi_provisioning/src/manager.c:            vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/components/wifi_provisioning/src/manager.c:        vTaskDelay(120 / portTICK_PERIOD_MS);
+bsp/esp32/components/wifi_provisioning/src/manager.c:        vTaskDelay(120 / portTICK_PERIOD_MS);
+bsp/esp32/components/wifi_provisioning/src/manager.c:            vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/esp32/touch_sensor.c:        xTimerChangePeriod(s_touch_pad_filter->timer, new_period_ms / portTICK_PERIOD_MS, portMAX_DELAY);
+bsp/esp32/components/driver/esp32/touch_sensor.c:    TOUCH_CHECK(filter_period_ms >= portTICK_PERIOD_MS, "Touch pad filter period error", ESP_ERR_INVALID_ARG);
+bsp/esp32/components/driver/esp32/touch_sensor.c:        s_touch_pad_filter->timer = xTimerCreate("filter_tmr", filter_period_ms / portTICK_PERIOD_MS, pdFALSE,
+bsp/esp32/components/driver/i2c.c:#define I2C_CMD_ALIVE_INTERVAL_TICK    (1000 / portTICK_PERIOD_MS)
+bsp/esp32/components/driver/sdmmc_transaction.c:    esp_err_t err = sdmmc_host_wait_for_event(cmd->timeout_ms / portTICK_PERIOD_MS, &event);
+bsp/esp32/components/driver/sdmmc_transaction.c:    int timeout_ticks = (timeout_ms + portTICK_PERIOD_MS - 1) / portTICK_PERIOD_MS;
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32.c:        vTaskDelay(50 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32.c:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32.c:        vTaskDelay(50 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32.c:    vTaskDelay(500 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32.c:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        vTaskDelay(20 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(50 * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        vTaskDelay(50  * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        vTaskDelay(50  * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(50 * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        vTaskDelay(20 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        vTaskDelay(20 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        if (pdTRUE == xQueueReceive(que_touch, &evt, exceed_time_ms / portTICK_PERIOD_MS)) {
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        if (pdTRUE == xQueueReceive(que_touch, &evt, exceed_time_ms / portTICK_PERIOD_MS)) {
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        if (pdTRUE == xQueueReceive(que_touch, &evt, exceed_time_ms / portTICK_PERIOD_MS)) {
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        if (pdTRUE == xQueueReceive(que_touch, &evt, exceed_time_ms / portTICK_PERIOD_MS)) {
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        if (pdTRUE == xQueueReceive(que_touch, &evt, 1000 / portTICK_PERIOD_MS)) {
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        if (pdTRUE == xQueueReceive(que_touch, &evt, 1000 / portTICK_PERIOD_MS)) {
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(50 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(50 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(50 * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(50 * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(50 * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(50 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        vTaskDelay(20 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        vTaskDelay(20 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(50 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(20 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        vTaskDelay(20 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        vTaskDelay(20 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(50 * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(50 * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        vTaskDelay(20 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(100 * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        vTaskDelay(100 * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:        vTaskDelay(50 * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(50 * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(50 * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(100 * SYS_DELAY_TIME_MOM / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/touch_sensor_test/test_esp32s2.c:    vTaskDelay(50 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_timer.c:    TEST_ASSERT_EQUAL(pdTRUE, xQueueReceive(timer_queue, &evt, 3000 / portTICK_PERIOD_MS));
+bsp/esp32/components/driver/test/test_timer.c:    vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_timer.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_timer.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_timer.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_timer.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_timer.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);         //delay the same time
+bsp/esp32/components/driver/test/test_timer.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);         //delay the same time
+bsp/esp32/components/driver/test/test_timer.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_timer.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);         //delay the same time
+bsp/esp32/components/driver/test/test_timer.c:    vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_timer.c:    vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_timer.c:    vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_timer.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_timer.c:    vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_timer.c:    vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_spi_param.c:        vTaskDelay(50/portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_i2s.c:    i2s_write(I2S_NUM_0, data_wr, sizeof(uint8_t)*400, &i2s_bytes_write, 1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_i2s.c:    i2s_write(I2S_NUM_0, data_wr, sizeof(uint8_t)*400, &i2s_bytes_write, 1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_i2s.c:    i2s_write(I2S_NUM_1, data_wr, sizeof(uint8_t)*400, &i2s_bytes_write, 1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_i2s.c:    vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_i2s.c:    vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_sigmadelta.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_sigmadelta.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_sigmadelta.c:    vTaskDelay(3000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_sdio.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_uart.c:    vTaskDelay(5000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_uart.c:    if (xSemaphoreTake(exit_sema, 1000 / portTICK_PERIOD_MS) == pdTRUE) {
+bsp/esp32/components/driver/test/test_uart.c:    vTaskDelay(1 / portTICK_PERIOD_MS); // make sure last byte has flushed from TX FIFO
+bsp/esp32/components/driver/test/test_pcnt.c:        port_status = xQueueReceive(pcnt_evt_queue, &status, 1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_i2c.c:    vTaskDelay(5000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_i2c.c:    if (xSemaphoreTake(exit_sema, 1000 / portTICK_PERIOD_MS) == pdTRUE) {
+bsp/esp32/components/driver/test/test_i2c.c:    vTaskDelay(5000 / portTICK_PERIOD_MS);
+bsp/esp32/components/driver/test/test_i2c.c:    if (xSemaphoreTake(exit_sema, 1000 / portTICK_PERIOD_MS) == pdTRUE) {
+bsp/esp32/components/ulp/test/esp32/test_ulp.c:    vTaskDelay(100/portTICK_PERIOD_MS);
+bsp/esp32/components/ulp/test/esp32/test_ulp.c:        vTaskDelay(10/portTICK_PERIOD_MS);
+bsp/esp32/components/ulp/test/esp32/test_ulp.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/efuse/test/test_efuse.c:    vTaskDelay((delay_ms + 100) / portTICK_PERIOD_MS);
+bsp/esp32/components/efuse/test/test_efuse.c:    vTaskDelay(3000 / portTICK_PERIOD_MS);
+bsp/esp32/components/efuse/test/test_efuse.c:    vTaskDelay(3000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_wifi/esp32/esp_adapter.c:    return (int32_t)(ms / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_wifi/esp32s3/esp_adapter.c:    return (int32_t)(ms / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_wifi/esp32s2/esp_adapter.c:    return (int32_t)(ms / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_wifi/test/test_wifi.c:    vTaskDelay(1000/portTICK_PERIOD_MS);
+bsp/esp32/components/esp_wifi/test/test_wifi.c:    vTaskDelay(1000/portTICK_PERIOD_MS);
+bsp/esp32/components/esp_wifi/test/test_wifi.c:        vTaskDelay(50 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_wifi/test/test_wifi.c:    vTaskDelay(60000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_wifi/esp32c3/esp_adapter.c:    return (int32_t)(ms / portTICK_PERIOD_MS);
+bsp/esp32/components/esp32/test/test_ahb_arb.c:        vTaskDelay(20 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp32/test/test_ahb_arb.c:        vTaskDelay(60 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp32/test/test_ahb_arb.c:        vTaskDelay(20 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp32/test/test_ahb_arb.c:        vTaskDelay(20000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp32/test/test_aes_sha_rsa.c:    vTaskDelay(10000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp32/test/test_aes_sha_rsa.c:        if (!xSemaphoreTake(exit_sema[i], 2000/portTICK_PERIOD_MS)) {
+bsp/esp32/components/esp32/test/test_aes_sha_rsa.c:    vTaskDelay(10000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp32/test/test_aes_sha_rsa.c:        if (!xSemaphoreTake(exit_sema[i], 2000/portTICK_PERIOD_MS)) {
+bsp/esp32/components/esp32/test/test_aes_sha_rsa.c:    vTaskDelay(10000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp32/test/test_aes_sha_rsa.c:        if (!xSemaphoreTake(exit_sema[i], 2000/portTICK_PERIOD_MS)) {
+bsp/esp32/components/esp32/test/test_aes_sha_rsa.c:    vTaskDelay(10000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp32/test/test_aes_sha_rsa.c:        if (!xSemaphoreTake(exit_sema[i], 2000/portTICK_PERIOD_MS)) {
+bsp/esp32/components/esp32/test/test_aes_sha_rsa.c:    vTaskDelay(10000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp32/test/test_aes_sha_rsa.c:        if (!xSemaphoreTake(exit_sema[i], 2000/portTICK_PERIOD_MS)) {
+bsp/esp32/components/esp32/test/test_dport.c:    vTaskDelay(delay_ms / portTICK_PERIOD_MS);
+bsp/esp32/components/esp32/test/test_fastbus.c:        vTaskDelay(20000 / portTICK_PERIOD_MS);
+bsp/esp32/components/sdmmc/sdmmc_io.c:        vTaskDelay(SDMMC_IO_SEND_OP_COND_DELAY_MS / portTICK_PERIOD_MS);
+bsp/esp32/components/sdmmc/test/test_sdio.c:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/sdmmc/test/test_sdio.c:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/sdmmc/sdmmc_cmd.c:        vTaskDelay(SDMMC_GO_IDLE_DELAY_MS / portTICK_PERIOD_MS);
+bsp/esp32/components/sdmmc/sdmmc_cmd.c:        vTaskDelay(SDMMC_GO_IDLE_DELAY_MS / portTICK_PERIOD_MS);
+bsp/esp32/components/sdmmc/sdmmc_cmd.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/cxx/test/test_initialization.cpp:        vTaskDelay(300/portTICK_PERIOD_MS);
+bsp/esp32/components/cxx/test/test_initialization.cpp:        TEST_ASSERT_TRUE(xSemaphoreTake(s_slow_init_sem, 500/portTICK_PERIOD_MS));
+bsp/esp32/components/esp_hid/src/bt_hidh.c:    if (xSemaphoreTake(dev->semaphore, 500 / portTICK_PERIOD_MS) != pdTRUE) {
+bsp/esp32/components/mdns/mdns.c:    packet->send_at = (xTaskGetTickCount() * portTICK_PERIOD_MS) + ms_after;
+bsp/esp32/components/mdns/mdns.c:    search->started_at = xTaskGetTickCount() * portTICK_PERIOD_MS;
+bsp/esp32/components/mdns/mdns.c:    if ((int32_t)(p->send_at - (xTaskGetTickCount() * portTICK_PERIOD_MS)) < 0) {
+bsp/esp32/components/mdns/mdns.c:    uint32_t now = xTaskGetTickCount() * portTICK_PERIOD_MS;
+bsp/esp32/components/mdns/mdns.c:            vTaskDelay(500 * portTICK_PERIOD_MS);
+bsp/esp32/components/mdns/mdns.c:            vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/mdns/mdns.c:    uint32_t t = xTaskGetTickCount() * portTICK_PERIOD_MS;
+bsp/esp32/components/mdns/test_afl_fuzz_host/esp32_compat.h:#define portTICK_PERIOD_MS          1
+bsp/esp32/components/wpa_supplicant/src/esp_supplicant/esp_dpp.c:    if ( xQueueSend(s_dpp_evt_queue, &evt, 10 / portTICK_PERIOD_MS ) != pdPASS) {
+bsp/esp32/components/wpa_supplicant/src/esp_supplicant/esp_wpa2.c:        if ( xQueueSend(s_wpa2_queue, &evt, 10 / portTICK_PERIOD_MS ) != pdPASS) {
+bsp/esp32/components/wpa_supplicant/src/esp_supplicant/esp_wps.c:        if ( xQueueSend(s_wps_queue, &evt, 10 / portTICK_PERIOD_MS) != pdPASS) {
+bsp/esp32/components/wpa_supplicant/src/esp_supplicant/esp_common.c:	if (xQueueSend(s_supplicant_evt_queue, &evt, 10 / portTICK_PERIOD_MS ) != pdPASS) {
+bsp/esp32/components/wpa_supplicant/test/test_offchannel.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/wpa_supplicant/test/test_offchannel.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/wpa_supplicant/test/test_offchannel.c:        vTaskDelay(500 / portTICK_PERIOD_MS);
+bsp/esp32/components/wpa_supplicant/test/test_offchannel.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp32s2/esp_ds.c:        vTaskDelay(ESP_DS_SIGN_TASK_DELAY_MS / portTICK_PERIOD_MS);
+bsp/esp32/components/vfs/test/test_vfs_fd.c:#define CONCURRENT_TEST_MAX_WAIT    (1000 / portTICK_PERIOD_MS)
+bsp/esp32/components/vfs/test/test_vfs_fd.c:    vTaskDelay((rand() % ms) / portTICK_PERIOD_MS);
+bsp/esp32/components/vfs/test/test_vfs_select.c:    vTaskDelay(test_task_param->delay_ms / portTICK_PERIOD_MS);
+bsp/esp32/components/vfs/test/test_vfs_select.c:    TEST_ASSERT_EQUAL(xSemaphoreTake(test_task_param.sem, 1000 / portTICK_PERIOD_MS), pdTRUE);
+bsp/esp32/components/vfs/test/test_vfs_select.c:    TEST_ASSERT_EQUAL(xSemaphoreTake(test_task_param.sem, 1000 / portTICK_PERIOD_MS), pdTRUE);
+bsp/esp32/components/vfs/test/test_vfs_select.c:    TEST_ASSERT_EQUAL(xSemaphoreTake(test_task_param.sem, 1000 / portTICK_PERIOD_MS), pdTRUE);
+bsp/esp32/components/vfs/test/test_vfs_select.c:    TEST_ASSERT_EQUAL(xSemaphoreTake(test_task_param.sem, 1000 / portTICK_PERIOD_MS), pdTRUE);
+bsp/esp32/components/vfs/test/test_vfs_select.c:    TEST_ASSERT_EQUAL(xSemaphoreTake(test_task_param.sem, 1000 / portTICK_PERIOD_MS), pdTRUE);
+bsp/esp32/components/vfs/test/test_vfs_select.c:    TEST_ASSERT_EQUAL(xSemaphoreTake(test_task_param.sem, 1000 / portTICK_PERIOD_MS), pdTRUE);
+bsp/esp32/components/vfs/test/test_vfs_select.c:        vTaskDelay(10 / portTICK_PERIOD_MS); //make sure the task has started and waits in select()
+bsp/esp32/components/vfs/test/test_vfs_select.c:        TEST_ASSERT_EQUAL(pdTRUE, xSemaphoreTake(param.sem, 1000 / portTICK_PERIOD_MS));
+bsp/esp32/components/vfs/test/test_vfs_select.c:        TEST_ASSERT_EQUAL(pdTRUE, xSemaphoreTake(param.sem, 1000 / portTICK_PERIOD_MS));
+bsp/esp32/components/vfs/test/test_vfs_select.c:        TEST_ASSERT_EQUAL(pdTRUE, xSemaphoreTake(send_param.sem, 1000 / portTICK_PERIOD_MS));
+bsp/esp32/components/vfs/test/test_vfs_select.c:    vTaskDelay(10 / portTICK_PERIOD_MS); //make sure the task has started and waits in select()
+bsp/esp32/components/vfs/test/test_vfs_select.c:    TEST_ASSERT_EQUAL(pdTRUE, xSemaphoreTake(param.sem, 1500 / portTICK_PERIOD_MS));
+bsp/esp32/components/vfs/test/test_vfs_select.c:    vTaskDelay(10 / portTICK_PERIOD_MS); //make sure the task has started and waits in select()
+bsp/esp32/components/vfs/test/test_vfs_select.c:    TEST_ASSERT_EQUAL(pdTRUE, xSemaphoreTake(param.sem, 1500 / portTICK_PERIOD_MS));
+bsp/esp32/components/vfs/test/test_vfs_uart.c:    vTaskDelay(2 / portTICK_PERIOD_MS);
+bsp/esp32/components/vfs/test/test_vfs_uart.c:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/vfs/test/test_vfs_uart.c:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/vfs/test/test_vfs_uart.c:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/vfs/test/test_vfs_uart.c:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/vfs/test/test_vfs_uart.c:    int res = xSemaphoreTake(write_arg.done, 100 / portTICK_PERIOD_MS);
+bsp/esp32/components/vfs/test/test_vfs_uart.c:    res = xSemaphoreTake(read_arg.done, 100 / portTICK_PERIOD_MS);
+bsp/esp32/components/vfs/vfs.c:            ticks_to_wait = timeout_ms / portTICK_PERIOD_MS;
+bsp/esp32/components/mbedtls/port/crypto_shared_gdma/esp_crypto_shared_gdma.c:        vTaskDelay(NEW_CHANNEL_DELAY_MS / portTICK_PERIOD_MS);
+bsp/esp32/components/mbedtls/port/aes/dma/esp_aes.c:        if (!xSemaphoreTake(op_complete_sem, 2000 / portTICK_PERIOD_MS)) {
+bsp/esp32/components/mbedtls/port/esp_ds/esp_rsa_sign_alt.c:    if ((xSemaphoreTake(s_ds_lock, s_timeout_ms / portTICK_PERIOD_MS) != pdTRUE)) {
+bsp/esp32/components/mbedtls/test/test_mbedtls_sha.c:        if (!xSemaphoreTake(done_sem, 10000 / portTICK_PERIOD_MS)) {
+bsp/esp32/components/mbedtls/test/test_mbedtls_sha.c:        if (!xSemaphoreTake(done_sem, TIMEOUT_MS / portTICK_PERIOD_MS)) {
+bsp/esp32/components/mbedtls/test/test_aes_sha_parallel.c:        if (!xSemaphoreTake(done_sem, 10000 / portTICK_PERIOD_MS)) {
+bsp/esp32/components/mbedtls/test/test_esp_crt_bundle.c:        vTaskDelay(20 / portTICK_PERIOD_MS);
+bsp/esp32/components/mbedtls/test/test_esp_crt_bundle.c:   if (!xSemaphoreTake(signal_sem, 10000 / portTICK_PERIOD_MS)) {
+bsp/esp32/components/mbedtls/test/test_esp_crt_bundle.c:   if (!xSemaphoreTake(signal_sem, 10000 / portTICK_PERIOD_MS)) {
+bsp/esp32/components/freertos/port/xtensa/include/freertos/portmacro.h:#define portTICK_PERIOD_MS			( ( TickType_t ) 1000 / configTICK_RATE_HZ )
+bsp/esp32/components/freertos/port/riscv/include/freertos/portmacro.h:#define portTICK_PERIOD_MS			( ( TickType_t ) (1000 / configTICK_RATE_HZ) )
+bsp/esp32/components/freertos/test/test_preemption.c:        TEST_ASSERT( xQueueReceive(queue, &yield_ccount, 100 / portTICK_PERIOD_MS) );
+bsp/esp32/components/freertos/test/test_preemption.c:        TEST_ASSERT( xQueueReceive(queue, &yield_ccount, 100 / portTICK_PERIOD_MS) );
+bsp/esp32/components/freertos/test/test_freertos_task_notify.c:                TEST_ASSERT( xSemaphoreTake(task_delete_semphr, 1000 / portTICK_PERIOD_MS) );
+bsp/esp32/components/freertos/test/test_spinlocks.c:        if(!xSemaphoreTake(done_sem, 10000/portTICK_PERIOD_MS)) {
+bsp/esp32/components/freertos/test/test_spinlocks.c:        if(!xSemaphoreTake(done_sem, 10000/portTICK_PERIOD_MS)) {
+bsp/esp32/components/freertos/test/test_timers.c:    TimerHandle_t oneshot = xTimerCreate("oneshot", 100 / portTICK_PERIOD_MS, pdFALSE,
+bsp/esp32/components/freertos/test/test_timers.c:    vTaskDelay(250 / portTICK_PERIOD_MS); // 2.5 timer periods
+bsp/esp32/components/freertos/test/test_timers.c:    TimerHandle_t recurring = xTimerCreate("oneshot", 100 / portTICK_PERIOD_MS, pdTRUE,
+bsp/esp32/components/freertos/test/test_timers.c:    vTaskDelay(250 / portTICK_PERIOD_MS); // 2.5 timer periods
+bsp/esp32/components/freertos/test/test_timers.c:    vTaskDelay(100 / portTICK_PERIOD_MS); // One more timer period
+bsp/esp32/components/freertos/test/test_timers.c:    created_timer = xTimerCreateStatic("oneshot", 100 / portTICK_PERIOD_MS,
+bsp/esp32/components/freertos/test/test_newlib_reent.c:    vTaskDelay((int)pvParameters / portTICK_PERIOD_MS);
+bsp/esp32/components/freertos/test/test_newlib_reent.c:    vTaskDelay((int)pvParameters / portTICK_PERIOD_MS);
+bsp/esp32/components/freertos/test/test_newlib_reent.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/freertos/test/test_freertos_eventgroups.c:        TEST_ASSERT( xSemaphoreTake(done_sem, 100/portTICK_PERIOD_MS) );
+bsp/esp32/components/freertos/test/test_freertos_eventgroups.c:        TEST_ASSERT( xSemaphoreTake(done_sem, 100/portTICK_PERIOD_MS) );
+bsp/esp32/components/freertos/test/test_freertos_isinisrcontext.c:    vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/components/freertos/test/test_freertos_isinisrcontext.c:    vTaskDelay(150 / portTICK_PERIOD_MS);
+bsp/esp32/components/freertos/test/test_freertos_isinisrcontext.c:    vTaskDelay(150 / portTICK_PERIOD_MS);
+bsp/esp32/components/freertos/test/test_task_suspend_resume.c:    vTaskDelay(waiting_ms / portTICK_PERIOD_MS);
+bsp/esp32/components/freertos/test/test_task_suspend_resume.c:    vTaskDelay(waiting_ms * 2 / portTICK_PERIOD_MS);
+bsp/esp32/components/freertos/test/test_task_suspend_resume.c:    tick_hook_ms[xPortGetCoreID()] += portTICK_PERIOD_MS;
+bsp/esp32/components/freertos/test/test_task_suspend_resume.c:    vTaskDelay(waiting_ms * 2 / portTICK_PERIOD_MS);
+bsp/esp32/components/freertos/test/test_task_suspend_resume.c:    TEST_ASSERT_INT_WITHIN(portTICK_PERIOD_MS, waiting_ms * 2, tick_hook_ms[0]);
+bsp/esp32/components/freertos/test/test_task_suspend_resume.c:    TEST_ASSERT_INT_WITHIN(portTICK_PERIOD_MS, waiting_ms * 2, tick_hook_ms[1]);
+bsp/esp32/components/freertos/test/test_task_suspend_resume.c:    duration_timer_ms += portTICK_PERIOD_MS;
+bsp/esp32/components/freertos/test/test_task_suspend_resume.c:    vTaskDelay(waiting_ms * 2 / portTICK_PERIOD_MS);
+bsp/esp32/components/freertos/include/freertos/semphr.h: * available.  The macro portTICK_PERIOD_MS can be used to convert this to a
+bsp/esp32/components/freertos/include/freertos/semphr.h: * available.  The macro portTICK_PERIOD_MS can be used to convert this to a
+bsp/esp32/components/freertos/include/freertos/queue.h: * portTICK_PERIOD_MS should be used to convert to real time if this is required.
+bsp/esp32/components/freertos/include/freertos/queue.h: * portTICK_PERIOD_MS should be used to convert to real time if this is required.
+bsp/esp32/components/freertos/include/freertos/queue.h: * portTICK_PERIOD_MS should be used to convert to real time if this is required.
+bsp/esp32/components/freertos/include/freertos/queue.h: * portTICK_PERIOD_MS should be used to convert to real time if this is required.
+bsp/esp32/components/freertos/include/freertos/queue.h: * portTICK_PERIOD_MS should be used to convert to real time if this is required.
+bsp/esp32/components/freertos/include/freertos/queue.h: * constant portTICK_PERIOD_MS should be used to convert to real time if this is
+bsp/esp32/components/freertos/include/freertos/task.h: * portTICK_PERIOD_MS can be used to calculate real time from the tick
+bsp/esp32/components/freertos/include/freertos/task.h: *  const TickType_t xDelay = 500 / portTICK_PERIOD_MS;
+bsp/esp32/components/freertos/include/freertos/task.h: * The constant portTICK_PERIOD_MS can be used to calculate real time from the tick
+bsp/esp32/components/freertos/include/freertos/task.h: * portTICK_PERIOD_MS can be used to convert kernel ticks into a real time
+bsp/esp32/components/freertos/include/freertos/croutine.h: * configTICK_RATE_HZ (set in FreeRTOSConfig.h).  The constant portTICK_PERIOD_MS
+bsp/esp32/components/freertos/include/freertos/croutine.h: static const xTickType xDelayTime = 200 / portTICK_PERIOD_MS;
+bsp/esp32/components/freertos/include/freertos/croutine.h: * portTICK_PERIOD_MS can be used to convert ticks to milliseconds (see example
+bsp/esp32/components/freertos/include/freertos/croutine.h: * portTICK_PERIOD_MS can be used to convert ticks to milliseconds (see the
+bsp/esp32/components/freertos/include/freertos/FreeRTOS.h:	#define portTICK_RATE_MS portTICK_PERIOD_MS
+bsp/esp32/components/freertos/include/freertos/event_groups.h: *    const TickType_t xTicksToWait = 100 / portTICK_PERIOD_MS;
+bsp/esp32/components/freertos/include/freertos/event_groups.h: *  TickType_t xTicksToWait = 100 / portTICK_PERIOD_MS;
+bsp/esp32/components/freertos/include/freertos/timers.h: * periods so the constant portTICK_PERIOD_MS can be used to convert a time that
+bsp/esp32/components/freertos/include/freertos/timers.h: * to ( 500 / portTICK_PERIOD_MS ) provided configTICK_RATE_HZ is less than or
+bsp/esp32/components/freertos/include/freertos/timers.h:  * periods so the constant portTICK_PERIOD_MS can be used to convert a time that
+bsp/esp32/components/freertos/include/freertos/timers.h:  * to ( 500 / portTICK_PERIOD_MS ) provided configTICK_RATE_HZ is less than or
+bsp/esp32/components/freertos/include/freertos/timers.h: * tick periods, so the constant portTICK_PERIOD_MS can be used to convert a time
+bsp/esp32/components/freertos/include/freertos/timers.h: * ( 500 / portTICK_PERIOD_MS ) provided configTICK_RATE_HZ is less than
+bsp/esp32/components/freertos/include/freertos/timers.h: *         if( xTimerChangePeriod( xTimer, 500 / portTICK_PERIOD_MS, 100 ) == pdPASS )
+bsp/esp32/components/freertos/include/freertos/timers.h: *                                     ( 5000 / portTICK_PERIOD_MS), // The timer period in ticks.
+bsp/esp32/components/freertos/include/freertos/timers.h: * tick periods, so the constant portTICK_PERIOD_MS can be used to convert a time
+bsp/esp32/components/freertos/include/freertos/timers.h: * ( 500 / portTICK_PERIOD_MS ) provided configTICK_RATE_HZ is less than
+bsp/esp32/components/freertos/History.txt:	+ Changed the name of the constant portTICKS_PER_MS to portTICK_PERIOD_MS
+bsp/esp32/components/esp-tls/esp_tls_wolfssl.c:        if ((xSemaphoreTake(tls_conn_lock, 1000/portTICK_PERIOD_MS) != pdTRUE)) {
+bsp/esp32/components/pthread/pthread.c:                     (timeout->tv_nsec - currtime.tv_nsec)/1000000)/portTICK_PERIOD_MS;
+bsp/esp32/components/pthread/test/test_pthread.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/components/pthread/test/test_pthread.c:        res = xTaskNotifyWait(0, 0, NULL, 100 / portTICK_PERIOD_MS);
+bsp/esp32/components/pthread/test/test_pthread.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/components/pthread/test/test_pthread.c:        res = xTaskNotifyWait(0, 0, NULL, 100 / portTICK_PERIOD_MS);
+bsp/esp32/components/pthread/test/test_pthread.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/components/pthread/pthread_cond_var.c:        timeout_ticks = timeout_msec / portTICK_PERIOD_MS;
+bsp/esp32/components/log/log_freertos.c:#define MAX_MUTEX_WAIT_TICKS ((MAX_MUTEX_WAIT_MS + portTICK_PERIOD_MS - 1) / portTICK_PERIOD_MS)
+bsp/esp32/components/esp_ipc/test/test_ipc.c:    vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_ipc/test/test_ipc.c:    xSemaphoreTake(sema_ipc_done, 4000 / portTICK_PERIOD_MS);
+bsp/esp32/components/lwip/port/esp32/freertos/sys_arch.c:  return xTaskGetTickCount() * portTICK_PERIOD_MS;
+bsp/esp32/components/lwip/port/esp32/freertos/sys_arch.c:  vTaskDelay(ms / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_timer/test/test_ets_timer.c:        vTaskDelay(delays_ms[i] * 2 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_timer/test/test_ets_timer.c:        TEST_ASSERT_INT32_WITHIN(portTICK_PERIOD_MS, delays_ms[i], ms_diff);
+bsp/esp32/components/esp_timer/test/test_ets_timer.c:        TEST_ASSERT_INT32_WITHIN(portTICK_PERIOD_MS, (i + 1) * delay_ms, args.intervals[i]);
+bsp/esp32/components/esp_timer/test/test_ets_timer.c:        int result = xSemaphoreTake(done, 180 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_timer/test/test_ets_timer.c:    vTaskDelay(2 * INTERVAL / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_timer/test/test_esp_timer.c:    TEST_ASSERT(xSemaphoreTake(done, test_time_sec * 2 * 1000 / portTICK_PERIOD_MS));
+bsp/esp32/components/esp_timer/test/test_esp_timer.c:    TEST_ASSERT(xSemaphoreTake(done, test_time_sec * 2 * 1000 / portTICK_PERIOD_MS));
+bsp/esp32/components/esp_timer/test/test_esp_timer.c:        vTaskDelay(delays_ms[i] * 2 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_timer/test/test_esp_timer.c:        TEST_ASSERT_INT32_WITHIN(portTICK_PERIOD_MS, delays_ms[i], ms_diff);
+bsp/esp32/components/esp_timer/test/test_esp_timer.c:        TEST_ASSERT_INT32_WITHIN(portTICK_PERIOD_MS, (i + 1) * delay_ms, args.intervals[i]);
+bsp/esp32/components/esp_timer/test/test_esp_timer.c:        int result = xSemaphoreTake(done, 1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_timer/test/test_esp_timer.c:    TEST_ASSERT_TRUE(xSemaphoreTake(args.notify_from_timer_cb, 1000 / portTICK_PERIOD_MS));
+bsp/esp32/components/esp_timer/test/test_esp_timer.c:    vTaskDelay(2 * interval / 1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_timer/test/test_esp_timer.c:    TEST_ASSERT_INT_WITHIN(portTICK_PERIOD_MS * 1000, interval - advance, state.cb_time - t_start);
+bsp/esp32/components/esp_timer/test/test_esp_timer.c:    vTaskDelay(60 * 1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_timer/test/test_esp_timer.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_timer/test/test_esp_timer.c:    vTaskDelay(60 * 1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_timer/test/test_esp_timer.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_timer/test/test_esp_timer.c:            vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/fatfs/src/ffconf.h:#define FF_FS_TIMEOUT	(CONFIG_FATFS_TIMEOUT_MS / portTICK_PERIOD_MS)
+bsp/esp32/components/spiffs/test/test_spiffs.c:    vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/components/spiffs/test/test_spiffs.c:    vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_pm/pm_impl.c:        int64_t wakeup_delay_us = portTICK_PERIOD_MS * 1000LL * xExpectedIdleTime;
+bsp/esp32/components/esp_pm/pm_impl.c:        if (sleep_time_us >= configEXPECTED_IDLE_TIME_BEFORE_SLEEP * portTICK_PERIOD_MS * 1000LL) {
+bsp/esp32/components/esp_pm/pm_impl.c:            uint32_t slept_ticks = slept_us / (portTICK_PERIOD_MS * 1000LL);
+bsp/esp32/components/esp_pm/pm_impl.c:                 * than portTICK_PERIOD_MS. Note that setting INTSET does not
+bsp/esp32/components/esp_pm/test/test_pm.c:        const int us_per_tick = 1 * portTICK_PERIOD_MS * 1000;
+bsp/esp32/components/esp_pm/test/test_pm.c:        const int delay_ticks = delay_ms / portTICK_PERIOD_MS;
+bsp/esp32/components/esp_pm/test/test_pm.c:        TEST_ASSERT_INT32_WITHIN(2 * portTICK_PERIOD_MS * 1000, delay_ms * 1000, end_hs - start_hs);
+bsp/esp32/components/esp_pm/test/test_pm.c:        TEST_ASSERT_INT32_WITHIN(2 * portTICK_PERIOD_MS * 1000, delay_ms * 1000, end_rtc - start_rtc);
+bsp/esp32/components/esp_pm/test/test_pm.c:    vTaskDelay(arg->delay_us / portTICK_PERIOD_MS / 1000);
+bsp/esp32/components/esp_pm/test/test_pm.c:        TEST_ASSERT( xSemaphoreTake(args.done, delay_ms * 10 / portTICK_PERIOD_MS) );
+bsp/esp32/components/esp_pm/test/test_pm.c:        TEST_ASSERT_INT32_WITHIN(1000 * portTICK_PERIOD_MS * 2, args.delay_us, args.result);
+bsp/esp32/components/esp_pm/test/test_pm.c:        TEST_ASSERT( xSemaphoreTake(args.done, delay_ms * 10 / portTICK_PERIOD_MS) );
+bsp/esp32/components/esp_pm/test/test_pm.c:        TEST_ASSERT_INT32_WITHIN(1000 * portTICK_PERIOD_MS * 2, args.delay_us, args.result);
+bsp/esp32/components/esp_pm/test/test_pm.c:        TEST_ASSERT_INT32_WITHIN(portTICK_PERIOD_MS, (i + 1) * delay_ms, args.intervals[i]);
+bsp/esp32/components/esp_system/port/soc/esp32s2/usb_console.c:        int ticks = MAX(delay_us / (portTICK_PERIOD_MS * 1000), 1);
+bsp/esp32/components/esp_system/port/soc/esp32s2/usb_console.c:        return ticks * portTICK_PERIOD_MS * 1000;
+bsp/esp32/components/esp_system/test/test_sleep.c:        vTaskDelay(10/portTICK_PERIOD_MS);
+bsp/esp32/components/esp_system/test/test_sleep.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_system/test/test_intr_alloc.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_system/test/test_intr_alloc.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_system/test/test_intr_alloc.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_system/test/test_intr_alloc.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_system/test/test_intr_alloc.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_system/test/test_intr_alloc.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_system/test/test_intr_alloc.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/esp_system/test/test_intr_alloc.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/controller/esp32/bt.c:        return (int32_t)xSemaphoreTake(semphr, block_time_ms / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/controller/esp32/bt.c:        return (int32_t)xQueueSend(queue, item, block_time_ms / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/controller/esp32/bt.c:        return (int32_t)xQueueReceive(queue, item, block_time_ms / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/controller/esp32s3/bt.c:        return (int32_t)xSemaphoreTake(semphr, block_time_ms / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/controller/esp32s3/bt.c:        return (int32_t)xQueueSend(queue, item, block_time_ms / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/controller/esp32s3/bt.c:        return (int32_t)xQueueReceive(queue, item, block_time_ms / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/controller/esp32c3/bt.c:        return (int)xSemaphoreTake(semphr, block_time_ms / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/controller/esp32c3/bt.c:        return (int)xQueueSend(queue, item, block_time_ms / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/controller/esp32c3/bt.c:        return (int)xQueueReceive(queue, item, block_time_ms / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/test/test_smp.c:    vTaskDelay(200 / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/test/test_smp.c:    vTaskDelay(200 / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/esp_ble_mesh/mesh_core/adv.c:    return (val == K_FOREVER) ? portMAX_DELAY : (val / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/esp_ble_mesh/mesh_core/main.c:        vTaskDelay((delay % 3000) / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/esp_ble_mesh/mesh_common/mesh_kernel.c:    vTaskDelay(duration / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/common/osi/semaphore.c:        if (xSemaphoreTake(*sem, timeout / portTICK_PERIOD_MS) != pdTRUE) {
+bsp/esp32/components/bt/common/osi/mutex.c:        if (xSemaphoreTake(*mutex, timeout / portTICK_PERIOD_MS) != pdTRUE)  {
+bsp/esp32/components/bt/host/bluedroid/btc/profile/std/spp/btc_spp.c:                                        pdFALSE, VFS_WRITE_TIMEOUT / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/host/bluedroid/btc/core/btc_main.c:    xSemaphoreTake(deinit_semaphore, BTA_DISABLE_DELAY / portTICK_PERIOD_MS);
+bsp/esp32/components/bt/host/nimble/esp-hci/src/esp_nimble_hci.c:    if (xSemaphoreTake(vhci_send_sem, NIMBLE_VHCI_TIMEOUT_MS / portTICK_PERIOD_MS) == pdTRUE) {
+bsp/esp32/components/bt/host/nimble/esp-hci/src/esp_nimble_hci.c:    if (xSemaphoreTake(vhci_send_sem, NIMBLE_VHCI_TIMEOUT_MS / portTICK_PERIOD_MS) == pdTRUE) {
+bsp/esp32/components/spi_flash/spi_flash_os_func_app.c:    if ((time - ctx->released_since_us) >= CONFIG_SPI_FLASH_ERASE_YIELD_TICKS * portTICK_PERIOD_MS * 1000) {
+bsp/esp32/components/spi_flash/test/test_spi_flash.c:    vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/components/spi_flash/test/test_spi_flash.c:    vTaskDelay(0 / portTICK_PERIOD_MS);
+bsp/esp32/components/spi_flash/test/test_spi_flash.c:    vTaskDelay(0 / portTICK_PERIOD_MS);
+bsp/esp32/components/spi_flash/test/test_cache_disabled.c:    vTaskDelay(1000/portTICK_PERIOD_MS);
+bsp/esp32/components/spi_flash/test/test_cache_disabled.c:    vTaskDelay(1000/portTICK_PERIOD_MS);
+bsp/esp32/components/esp32c3/esp_ds.c:        vTaskDelay(ESP_DS_SIGN_TASK_DELAY_MS / portTICK_PERIOD_MS);
+bsp/esp32/components/newlib/test/test_time.c:        vTaskDelay(1000/portTICK_PERIOD_MS);
+bsp/esp32/components/newlib/test/test_time.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/newlib/test/test_time.c:    vTaskDelay(5000 / portTICK_PERIOD_MS);
+bsp/esp32/components/newlib/test/test_time.c:        if (!xSemaphoreTake(exit_sema[i], 2000/portTICK_PERIOD_MS)) {
+bsp/esp32/components/newlib/test/test_time.c:    vTaskDelay(30000 / portTICK_PERIOD_MS);
+bsp/esp32/components/newlib/test/test_time.c:        if (!xSemaphoreTake(exit_sema[i], 2100/portTICK_PERIOD_MS)) {
+bsp/esp32/components/newlib/test/test_time.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/components/newlib/test/test_time.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/components/newlib/time.c:    clock_t t = xTaskGetTickCount() * (portTICK_PERIOD_MS * CLK_TCK / 1000);
+bsp/esp32/components/newlib/time.c:    const int us_per_tick = portTICK_PERIOD_MS * 1000;
+bsp/esp32/components/newlib/time.c:        /* since vTaskDelay(1) blocks for anywhere between 0 and portTICK_PERIOD_MS,
+bsp/esp32/components/esp_websocket_client/esp_websocket_client.c:                                        (timeout==portMAX_DELAY)? -1 : timeout * portTICK_PERIOD_MS);
+bsp/esp32/components/app_trace/sys_view/Sample/OS/SEGGER_SYSVIEW_FreeRTOS.c:  Time *= portTICK_PERIOD_MS;
+bsp/esp32/components/app_trace/sys_view/ext/heap_trace_module.c:    uint32_t tmo_ticks = tmo/(1000*portTICK_PERIOD_MS);
+bsp/esp32/components/app_trace/test/test_trace.c:    TickType_t tmo_ticks = arg->data.period / (1000 * portTICK_PERIOD_MS);
+bsp/esp32/components/app_trace/test/test_trace.c:    TickType_t tmo_ticks = arg->data.period / (1000 * portTICK_PERIOD_MS);
+bsp/esp32/components/app_trace/test/test_trace.c:        vTaskDelay(arg->sleep_tmo/portTICK_PERIOD_MS);
+bsp/esp32/components/esp_common/src/int_wdt.c:    assert((CONFIG_ESP_INT_WDT_TIMEOUT_MS >= (portTICK_PERIOD_MS << 1)) && "Interrupt watchdog timeout needs to meet twice the RTOS tick period!");
+bsp/esp32/components/esp_common/src/int_wdt.c:        assert((portTICK_PERIOD_MS << 1) <= IWDT_LIVELOCK_TIMEOUT_MS);
+bsp/esp32/components/esp_common/test/test_delay.c:        vTaskDelay(arg->delay_us / portTICK_PERIOD_MS / 1000);
+bsp/esp32/components/esp_common/test/test_delay.c:    TEST_ASSERT(xSemaphoreTake(args.done, delay_ms * 2 / portTICK_PERIOD_MS));
+bsp/esp32/components/esp_common/test/test_delay.c:    TEST_ASSERT(xSemaphoreTake(args.done, delay_ms * 2 / portTICK_PERIOD_MS));
+bsp/esp32/components/esp_common/test/test_delay.c:    TEST_ASSERT(xSemaphoreTake(args.done, delay_ms * 2 / portTICK_PERIOD_MS));
+bsp/esp32/components/esp_common/test/test_delay.c:    TEST_ASSERT(xSemaphoreTake(args.done, delay_ms * 2 / portTICK_PERIOD_MS));
+bsp/esp32/examples/bluetooth/esp_hid_device/main/esp_hid_device_main.c:                vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/esp_hid_device/main/esp_hid_device_main.c:                vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/esp_hid_device/main/esp_hid_device_main.c:        vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/common_components/button/button.c:            xTimerChangePeriod(btn->press_serial_cb.tmr, btn->serial_thres_sec*1000 / portTICK_PERIOD_MS, portMAX_DELAY);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/common_components/button/button.c:            esp_timer_start_once(btn->tap_rls_cb.tmr, btn->tap_rls_cb.interval * portTICK_PERIOD_MS * 1000);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/common_components/button/button.c:    esp_timer_start_once(btn->press_serial_cb.tmr, btn->press_serial_cb.interval * portTICK_PERIOD_MS * 1000);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/common_components/button/button.c:            esp_timer_start_once(btn->tap_psh_cb.tmr, btn->tap_psh_cb.interval * portTICK_PERIOD_MS * 1000);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/common_components/button/button.c:                esp_timer_start_once(pcb->tmr, pcb->interval * portTICK_PERIOD_MS * 1000);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/common_components/button/button.c:            esp_timer_start_once(btn->tap_rls_cb.tmr, btn->tap_rls_cb.interval * portTICK_PERIOD_MS * 1000);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/common_components/button/button.c:    btn->tap_rls_cb.interval = BUTTON_GLITCH_FILTER_TIME_MS / portTICK_PERIOD_MS;
+bsp/esp32/examples/bluetooth/esp_ble_mesh/common_components/button/button.c:    btn->tap_psh_cb.interval = BUTTON_GLITCH_FILTER_TIME_MS / portTICK_PERIOD_MS;
+bsp/esp32/examples/bluetooth/esp_ble_mesh/common_components/button/button.c:        btn->press_serial_cb.tmr = xTimerCreate("btn_serial_tmr", btn->serial_thres_sec*1000 / portTICK_PERIOD_MS,
+bsp/esp32/examples/bluetooth/esp_ble_mesh/common_components/button/button.c:    xTimerChangePeriod(btn->press_serial_cb.tmr, btn->serial_thres_sec*1000 / portTICK_PERIOD_MS, portMAX_DELAY);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/common_components/button/button.c:    cb_new->interval = press_sec * 1000 / portTICK_PERIOD_MS;
+bsp/esp32/examples/bluetooth/esp_ble_mesh/common_components/button/include/iot_button.h: * btn->add_cb(BUTTON_CB_PUSH, button_tap_cb, (void*) push, 50 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/ble_mesh_coex_test/components/case/wifi_unit.c:            vTaskDelay(delay / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/ble_mesh_coex_test/components/case/run_tc.c:    vTaskDelay(atoi(duration) / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/ble_mesh_coex_test/components/case/run_tc.c:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/ble_mesh_coex_test/components/case/run_tc.c:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/ble_mesh_coex_test/components/case/sync.c:    vTaskDelay(30 / portTICK_PERIOD_MS);  //every 30ms send one packet
+bsp/esp32/examples/bluetooth/esp_ble_mesh/ble_mesh_coex_test/components/case/sync.c:    vTaskDelay(3000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/ble_mesh_wifi_coexist/tutorial/BLE_Mesh_WiFi_Coexist_Example_Walkthrough.md:                vTaskDelay(50 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/esp_ble_mesh/ble_mesh_console/main/ble_mesh_console_system.c:            vTaskDelay(200/portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble_50/peroidic_sync/main/periodic_sync_demo.c:    vTaskDelay(200 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble_50/multi-adv/main/multi_adv_demo.c:    vTaskDelay(200 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble_50/peroidic_adv/main/periodic_adv_demo.c:    vTaskDelay(200 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble_50/ble50_security_server/main/ble50_sec_gatts_demo.c:     * vTaskDelay(30000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/classic_bt/bt_spp_vfs_initiator/main/example_spp_vfs_initiator_demo.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/classic_bt/bt_spp_vfs_initiator/main/example_spp_vfs_initiator_demo.c:            vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/classic_bt/bt_spp_vfs_acceptor/main/example_spp_vfs_acceptor_demo.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/classic_bt/bt_spp_vfs_acceptor/main/example_spp_vfs_acceptor_demo.c:            vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_throughput/throughput_client/main/example_ble_client_throughput.c:    vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_throughput/throughput_client/main/example_ble_client_throughput.c:        vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_throughput/throughput_client/main/example_ble_client_throughput.c:                        vTaskDelay( 10 / portTICK_PERIOD_MS );
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_throughput/throughput_server/main/example_ble_server_throughput.c:    vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_throughput/throughput_server/main/example_ble_server_throughput.c:                    vTaskDelay( 10 / portTICK_PERIOD_MS );
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_throughput/throughput_server/main/example_ble_server_throughput.c:        vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/gatt_security_server/main/example_ble_sec_gatts_demo.c:     * vTaskDelay(30000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_spp_server/main/ble_spp_server_demo.c:                            vTaskDelay(20 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_spp_server/main/ble_spp_server_demo.c:        vTaskDelay(50 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_spp_server/main/ble_spp_server_demo.c:                vTaskDelay(5000/ portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_spp_server/main/ble_spp_server_demo.c:        vTaskDelay(50 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_spp_server/main/ble_spp_server_demo.c:                    xQueueSend(cmd_cmd_queue,&spp_cmd_buff,10/portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_spp_server/main/ble_spp_server_demo.c:            xQueueSend(cmd_heartbeat_queue,&cmd,10/portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_hid_device_demo/main/ble_hidd_demo_main.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_hid_device_demo/main/ble_hidd_demo_main.c:        vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_hid_device_demo/main/ble_hidd_demo_main.c:            vTaskDelay(3000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_hid_device_demo/main/ble_hidd_demo_main.c:                vTaskDelay(3000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_spp_client/main/spp_client_demo.c:            xQueueSend(cmd_reg_queue, &cmd,10/portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_spp_client/main/spp_client_demo.c:            xQueueSend(cmd_reg_queue, &cmd, 10/portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_spp_client/main/spp_client_demo.c:            xQueueSend(cmd_heartbeat_queue, &cmd, 10/portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_spp_client/main/spp_client_demo.c:        xQueueSend(cmd_reg_queue, &cmd, 10/portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_spp_client/main/spp_client_demo.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_spp_client/main/spp_client_demo.c:        vTaskDelay(50 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/bluedroid/ble/ble_spp_client/main/spp_client_demo.c:                    vTaskDelay(5000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/hci/controller_vhci_ble_adv/main/app_bt.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/bluetooth/nimble/blehr/main/main.c:    xTimerStop( blehr_tx_timer, 1000 / portTICK_PERIOD_MS );
+bsp/esp32/examples/bluetooth/nimble/blehr/main/main.c:    if (xTimerReset(blehr_tx_timer, 1000 / portTICK_PERIOD_MS ) == pdPASS) {
+bsp/esp32/examples/bluetooth/nimble/bleprph/main/scli.c:#define BLE_RX_TIMEOUT (30000 / portTICK_PERIOD_MS)
+bsp/esp32/examples/mesh/ip_internal_network/main/mesh_main.c:        vTaskDelay(50 / portTICK_PERIOD_MS);
+bsp/esp32/examples/cxx/experimental/experimental_cpp_component/test/test_esp_event_cxx.cpp:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/examples/cxx/experimental/experimental_cpp_component/test/test_esp_event_cxx.cpp:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/examples/cxx/experimental/experimental_cpp_component/test/test_esp_event_cxx.cpp:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/examples/cxx/experimental/experimental_cpp_component/test/test_esp_event_cxx.cpp:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/examples/cxx/experimental/experimental_cpp_component/test/test_esp_event_cxx.cpp:        vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/examples/cxx/experimental/experimental_cpp_component/test/test_esp_timer.cpp:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/examples/cxx/experimental/experimental_cpp_component/test/test_esp_timer.cpp:    vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/examples/cxx/experimental/experimental_cpp_component/test/test_esp_timer.cpp:        vTaskDelay(delays_ms[i] * 2 / portTICK_PERIOD_MS);
+bsp/esp32/examples/cxx/experimental/experimental_cpp_component/test/test_esp_timer.cpp:        TEST_ASSERT_INT32_WITHIN(portTICK_PERIOD_MS, delays_ms[i], ms_diff);
+bsp/esp32/examples/cxx/experimental/experimental_cpp_component/test/test_esp_timer.cpp:        TEST_ASSERT_INT32_WITHIN(portTICK_PERIOD_MS, (i + 1) * DELAY_MS, intervals[i]);
+bsp/esp32/examples/cxx/experimental/experimental_cpp_component/esp_event_cxx.cpp:const std::chrono::milliseconds PLATFORM_MAX_DELAY_MS(portMAX_DELAY *portTICK_PERIOD_MS);
+bsp/esp32/examples/cxx/experimental/experimental_cpp_component/esp_event_cxx.cpp:    return time.count() / portTICK_PERIOD_MS;
+bsp/esp32/examples/wifi/iperf/components/iperf/iperf.c:    TickType_t delay_interval = (interval * 1000) / portTICK_PERIOD_MS;
+bsp/esp32/examples/wifi/iperf/components/iperf/iperf.c:        vTaskDelay(300 / portTICK_PERIOD_MS);
+bsp/esp32/examples/wifi/wpa2_enterprise/main/wpa2_enterprise_main.c:    vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/wifi/wpa2_enterprise/main/wpa2_enterprise_main.c:        vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/slip/slip_udp/components/slip_modem/library/slip_modem.c:        vTaskDelay(1 * portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/sntp/main/sntp_example_main.c:            vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/sntp/main/sntp_example_main.c:        vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/mdns/main/mdns_example_main.c:        vTaskDelay(50 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/websocket/main/websocket_example.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/websocket/main/websocket_example.c:    shutdown_signal_timer = xTimerCreate("Websocket shutdown timer", NO_DATA_TIMEOUT_SEC * 1000 / portTICK_PERIOD_MS,
+bsp/esp32/examples/protocols/https_request/main/https_request_example_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/https_server/wss_server/main/wss_server_example.c:        vTaskDelay(10000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/https_server/wss_server/main/keep_alive.c:                get_max_delay(keep_alive_storage) / portTICK_PERIOD_MS) == pdTRUE) {
+bsp/esp32/examples/protocols/http_request/main/http_request_example_main.c:            vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/http_request/main/http_request_example_main.c:            vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/http_request/main/http_request_example_main.c:            vTaskDelay(4000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/http_request/main/http_request_example_main.c:            vTaskDelay(4000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/http_request/main/http_request_example_main.c:            vTaskDelay(4000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/http_request/main/http_request_example_main.c:            vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/coap_client/main/coap_client_example_main.c:            vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/sockets/udp_client/main/udp_client.c:            vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/sockets/udp_multicast/main/udp_multicast_example_main.c:            vTaskDelay(5 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/sockets/tcp_client_multi_net/main/tcp_client_multiple.c:        vTaskDelay(500 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/sockets/tcp_client/main/tcp_client.c:            vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/mqtt/tcp/main/app_main.c:            vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/https_x509_bundle/main/https_x509_bundle_example_main.c:            vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/protocols/https_mbedtls/main/https_mbedtls_example_main.c:            vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/usb/tusb_console/main/tusb_console_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/usb/tusb_console/main/tusb_console_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/usb/tusb_console/main/tusb_console_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/usb/tusb_console/main/tusb_console_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/usb/tusb_console/main/tusb_console_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/usb/tusb_console/main/tusb_console_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/touch_pad_interrupt/main/esp32/tp_interrupt_main.c:                    vTaskDelay(200 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/touch_pad_interrupt/main/esp32/tp_interrupt_main.c:                    vTaskDelay(200 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/touch_pad_interrupt/main/esp32/tp_interrupt_main.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/pcnt/pulse_count_event/main/pcnt_event_example_main.c:        res = xQueueReceive(pcnt_evt_queue, &evt, 1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/touch_pad_read/main/esp32/tp_read_main.c:        vTaskDelay(200 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/touch_pad_read/main/esp32s2/tp_read_main.c:        vTaskDelay(200 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/sdio/host/main/app_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/sigmadelta/main/sigmadelta_example_main.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/spi_master/hd_eeprom/components/eeprom/spi_eeprom.c:        uint32_t tick_to_wait = MAX(EEPROM_BUSY_TIMEOUT_MS / portTICK_PERIOD_MS, 2);
+bsp/esp32/examples/peripherals/uart/uart_select/main/uart_select_example_main.c:            vTaskDelay(5000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/uart/nmea0183_parser/main/nmea_parser_example_main.c:    vTaskDelay(10000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/uart/nmea0183_parser/main/nmea_parser.c:                                      &(esp_gps->parent), sizeof(gps_t), 100 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/uart/nmea0183_parser/main/nmea_parser.c:                                  esp_gps->buffer, len, 100 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/uart/nmea0183_parser/main/nmea_parser.c:        int read_len = uart_read_bytes(esp_gps->uart_port, esp_gps->buffer, pos + 1, 100 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/uart/uart_events/main/uart_events_example_main.c:                        uart_read_bytes(EX_UART_NUM, dtmp, pos, 100 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/uart/uart_events/main/uart_events_example_main.c:                        uart_read_bytes(EX_UART_NUM, pat, PATTERN_CHR_NUM, 100 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/uart/uart_async_rxtxtasks/main/uart_async_rxtxtasks_main.c:        vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/i2s_adc_dac/main/app_main.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/adc/single_read/adc2/main/adc2_example_main.c:    vTaskDelay(2 * portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/adc/single_read/adc2/main/adc2_example_main.c:        vTaskDelay( 2 * portTICK_PERIOD_MS );
+bsp/esp32/examples/peripherals/spi_slave_hd/segment_mode/seg_master/main/app_main.c:            vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/rmt/morse_code/main/morse_code_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/ledc/main/ledc_example_main.c:        vTaskDelay(LEDC_TEST_FADE_TIME / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/ledc/main/ledc_example_main.c:        vTaskDelay(LEDC_TEST_FADE_TIME / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/ledc/main/ledc_example_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/peripherals/ledc/main/ledc_example_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/get-started/hello_world/main/hello_world_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/get-started/blink/main/blink.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/get-started/blink/main/blink.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/system/app_trace_to_host/main/app_trace_to_host_example_main.c:        vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/system/gcov/main/gcov_example_main.c:        vTaskDelay(500 / portTICK_PERIOD_MS);
+bsp/esp32/examples/system/gcov/main/gcov_example_main.c:        vTaskDelay(500 / portTICK_PERIOD_MS);
+bsp/esp32/examples/system/select/main/select_example.c:        vTaskDelay(4000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/system/select/main/select_example.c:        vTaskDelay(3000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/system/select/main/select_example.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/system/sysview_tracing_heap_log/main/sysview_heap_log.c:        vTaskDelay(30/portTICK_PERIOD_MS);
+bsp/esp32/examples/system/sysview_tracing_heap_log/main/sysview_heap_log.c:        vTaskDelay(100/portTICK_PERIOD_MS);
+bsp/esp32/examples/system/ota/native_ota_example/main/native_ota_example.c:        vTaskDelay(2000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/system/ota/native_ota_example/main/native_ota_example.c:    vTaskDelay(5000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/system/ota/simple_ota_example/main/simple_ota_example.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/system/ota/advanced_https_ota/main/advanced_https_ota_example.c:            vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/system/deep_sleep/main/deep_sleep_example_main.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/system/console/main/cmd_wifi.c:                                   pdFALSE, pdTRUE, timeout_ms / portTICK_PERIOD_MS);
+bsp/esp32/examples/build_system/cmake/idf_as_lib/stubs/freertos/freertos/task.h:#define portTICK_PERIOD_MS  1000
+bsp/esp32/examples/build_system/cmake/idf_as_lib/main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/provisioning/wifi_prov_mgr/main/app_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/storage/nvs_rw_value/main/nvs_value_example_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/storage/nvs_rw_blob/main/nvs_blob_example_main.c:    run_time[required_size / sizeof(uint32_t) - 1] = xTaskGetTickCount() * portTICK_PERIOD_MS;
+bsp/esp32/examples/storage/nvs_rw_blob/main/nvs_blob_example_main.c:            vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/examples/storage/nvs_rw_blob/main/nvs_blob_example_main.c:        vTaskDelay(200 / portTICK_PERIOD_MS);
+bsp/esp32/examples/storage/nvs_rw_value_cxx/main/nvs_value_example_main.cpp:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/docs/en/api-guides/jtag-debugging/debugging-examples.rst:    37          vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/docs/en/api-guides/jtag-debugging/debugging-examples.rst:    34          vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/docs/en/api-guides/jtag-debugging/debugging-examples.rst:    37          vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/docs/zh_CN/api-guides/jtag-debugging/debugging-examples.rst:    37          vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/docs/zh_CN/api-guides/jtag-debugging/debugging-examples.rst:    34          vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/docs/zh_CN/api-guides/jtag-debugging/debugging-examples.rst:    37          vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/tools/test_apps/protocols/pppos/main/pppos_client_main.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/tools/test_apps/protocols/openssl/main/main.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/tools/test_apps/protocols/mqtt/publish_connect_test/main/publish_connect_test.c:        vTaskDelay(10 / portTICK_PERIOD_MS);
+bsp/esp32/tools/test_apps/system/cxx_no_except/main/main.cpp:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/tools/test_apps/system/monitor_ide_integration/main/main.c:    vTaskDelay(1000 / portTICK_PERIOD_MS);
+bsp/esp32/tools/test_apps/system/gdb_loadable_elf/main/hello_world_main.c:        vTaskDelay(1000 / portTICK_PERIOD_MS);
+iot-core/src/port/os/freertos/iot_os_util_freertos.c:	return (freertos_timer->xTicksToWait * portTICK_PERIOD_MS);
+iot-core/example/esp32/main/iot_uart_cli.c:        vTaskDelay(100 / portTICK_PERIOD_MS);
+iot-core/example/esp32/main/iot_uart_cli.c:            vTaskDelay(100 / portTICK_PERIOD_MS);
+iot-core/example/esp32/main/main.c:        vTaskDelay(10 / portTICK_PERIOD_MS);

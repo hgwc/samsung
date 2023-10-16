@@ -1,0 +1,26 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "/home/hgwc/st-device-sdk-c-ref/iot-core/src/include/**",
+                "/home/hgwc/st-device-sdk-c-ref/iot-core/src/include/**",
+                "/home/hgwc/st-device-sdk-c-ref/iot-core/src/include/**",
+                "/home/hgwc/st-device-sdk-c-ref/bsp/esp32/components/xtensa/esp32/include/**",
+                "/home/hgwc/st-device-sdk-c-ref/bsp/esp32/components/freertos/include/**",
+                "/home/hgwc/st-device-sdk-c-ref/bsp/esp32/components/newlib/platform_include/**",
+                "/home/hgwc/st-device-sdk-c-ref/bsp/esp32/components/esp_common/include/**",
+                "/home/hgwc/st-device-sdk-c-ref/bsp/esp32/components/esp_timer/include/**",
+                "/home/hgwc/st-device-sdk-c-ref/bsp/esp32/components/esp_system/include/**",
+                "/home/hgwc/st-device-sdk-c-ref/bsp/esp32/components/esp_rom/include/**"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64"
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,49 @@
+Detecting the Python interpreter
+Checking "python" ...
+Python 3.10.6
+"python" has been detected
+Adding ESP-IDF tools to PATH...
+Using Python interpreter in /home/hgwc/.espressif/python_env/idf4.3_py3.10_env/bin/python
+Checking if Python packages are up to date...
+Python requirements from /home/hgwc/st-device-sdk-c-ref/bsp/esp32/requirements.txt are satisfied.
+Updated PATH variable:
+  /home/hgwc/st-device-sdk-c-ref/bsp/esp32/components/esptool_py/esptool:/home/hgwc/st-device-sdk-c-ref/bsp/esp32/components/espcoredump:/home/hgwc/st-device-sdk-c-ref/bsp/esp32/components/partition_table:/home/hgwc/st-device-sdk-c-ref/bsp/esp32/components/app_update:/home/hgwc/.espressif/tools/xtensa-esp32-elf/esp-2021r1-8.4.0/xtensa-esp32-elf/bin:/home/hgwc/.espressif/tools/xtensa-esp32s2-elf/esp-2021r1-8.4.0/xtensa-esp32s2-elf/bin:/home/hgwc/.espressif/tools/xtensa-esp32s3-elf/esp-2021r1-8.4.0/xtensa-esp32s3-elf/bin:/home/hgwc/.espressif/tools/riscv32-esp-elf/esp-2021r1-8.4.0/riscv32-esp-elf/bin:/home/hgwc/.espressif/tools/esp32ulp-elf/2.28.51-esp-20191205/esp32ulp-elf-binutils/bin:/home/hgwc/.espressif/tools/esp32s2ulp-elf/2.28.51-esp-20191205/esp32s2ulp-elf-binutils/bin:/home/hgwc/.espressif/tools/openocd-esp32/v0.10.0-esp32-20210401/openocd-esp32/bin:/home/hgwc/.espressif/python_env/idf4.3_py3.10_env/bin:/home/hgwc/st-device-sdk-c-ref/bsp/esp32/tools:/home/hgwc/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+Done! You can now compile ESP-IDF projects.
+Go to the project directory and run:
+
+  idf.py build
+
+Executing action: flash
+Serial port /dev/ttyUSB0
+Connecting........__
+Detecting chip type...[1/4] Performing build step for 'bootloader'
+ninja: no work to do.
+[1/2] cd /home/hgwc/st-device-sdk-c-ref/bsp/esp32/components/esptool_py && /usr/bin/cmake -D IDF_PATH="/home/hgwc/st-device-sdk-c-ref/bsp/esp32" -D SERIAL_TOOL="/home/hgwc/.espressif/python_env/idf4.3_py3.10_env/bin/python /home/hgwc/st-device-sdk-c-ref/bsp/esp32/components/esptool_py/esptool/esptool.py --chip esp32" -D SERIAL_TOOL_ARGS="--before=default_reset --after=hard_reset write_flash @flash_args" -D WORKING_DIRECTORY="/home/hgwc/st-device-sdk-c-ref/apps/esp32/light_example/build" -P /home/hgwc/st-device-sdk-c-ref/bsp/esp32/components/esptool_py/run_serial_tool.cmake
+esptool.py esp32 -p /dev/ttyUSB0 -b 460800 --before=default_reset --after=hard_reset write_flash --flash_mode dio --flash_freq 40m --flash_size 4MB 0x8000 partition_table/partition-table.bin 0x11000 ota_data_initial.bin 0x1000 bootloader/bootloader.bin 0x20000 light_example.bin
+esptool.py v3.1-dev
+Serial port /dev/ttyUSB0
+Connecting........_____....._____.....ninja: build stopped: interrupted by user.
+ ESP32
+Running ninja in directory /home/hgwc/st-device-sdk-c-ref/apps/esp32/light_example/build
+Executing "ninja flash"...
+
+Usage: python build.py apps/[BSP_NAME]/[APP_NAME]
+                 or
+       python build.py [BSP_NAME] [APP_NAME]
+--------------------------------------------------
+   [BSP_NAME] : [APP_NAME]
+  esp32       : switch_example, ota_demo, light_example
+  rtl8195     : switch_example, light_example
+  build       : CMakeFiles, .cmake
+  emw3166     : switch_example, light_example
+  esp32s2     : light_example
+  emw3080     : switch_example, light_example
+  rtl8720c    : switch_example, light_example
+  esp32_v3.3  : switch_example, ota_demo, light_example
+  rtl8721c    : switch_example, light_example
+  esp8266     : switch_example, light_example
+  esp32c3     : switch_example, light_example
+
+  ex) python build.py apps/esp32/switch_example
+  ex) python build.py esp32 light_example
+

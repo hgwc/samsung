@@ -1,0 +1,19 @@
+{
+  "onboardingConfig": {
+    "deviceOnboardingId": "VENT",
+    "mnId": "0BJf",
+    "setupId": "007",
+    "vid": "ST_d6b804b7-5038-4778-a696-ab497d64be9e",
+    "deviceTypeId": "Vent",
+    "ownershipValidationTypes": [
+      "JUSTWORKS"
+    ],
+    "identityType": "ED25519",
+    "deviceIntegrationProfileKey": {
+      "id": "50f7288e-9351-4481-867b-40200d45d416",
+      "majorVersion": 0,
+      "minorVersion": 1
+    },
+    "productId": "a845d892-2b88-426b-a269-e212727f733e"
+  }
+}

@@ -1,0 +1,53 @@
+commit 8098f7d8a627d9fbce9db66d1138de58464852a0
+Author: hgwc <hgwc@naver.com>
+Date:   Thu Aug 17 10:10:08 2023 +0900
+
+     CMakeLists.txt
+     main.c
+     main.code-workspace
+    ota_util.c
+     ota_util.h
+    public_key.pem
+    root.pem
+
+commit 306bf38469ffdd784a0c92d0ec8d10012d8df99e
+Author: hgwc <hgwc@naver.com>
+Date:   Fri Aug 11 10:51:36 2023 +0900
+
+    modified:   CMakeLists.txt
+    caps_firmwareUpdate.c
+    caps_firmwareUpdate.h
+    device_control.c
+    main.c
+    main.code-workspace
+
+commit e6cea4e3e1396b9a77d3748f7846047e7897c2d7
+Author: hgwc <hgwc@naver.com>
+Date:   Tue Aug 8 14:02:00 2023 +0900
+
+    caps_fanSpeed.c
+    caps_switch.c
+
+commit 8f9e95a11bce9490a1a927b44cf69efa679491b9
+Author: hgwc <hgwc@naver.com>
+Date:   Tue Aug 8 14:00:03 2023 +0900
+
+    caps_dustSensor.h
+    caps_fanSpeed.c
+    caps_mode.c
+    caps_mode.h
+    aps_switch.c
+    caps_switch.h
+    device_control.c
+    device_control.h
+    main.c
+    caps_fanSpeed.c
+    aps_switch.c
+
+commit 09f27a1d8ab8ecc6947f6ab0dbbf251992e7369c
+Author: hgwc <hgwc@naver.com>
+Date:   Wed Jul 26 09:34:31 2023 +0900
+
+            modified:   device_control.c
+            modified:   device_control.h
+            modified:   main.c

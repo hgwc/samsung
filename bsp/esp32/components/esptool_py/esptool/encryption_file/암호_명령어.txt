@@ -1,0 +1,4 @@
+python ../espsecure.py encrypt_flash_data -k my_flash_encryption_key.bin -o bootloader-en.bin -a 0x1000 bootloader.bin
+python ../espsecure.py encrypt_flash_data -k my_flash_encryption_key.bin -o partition-table-en.bin -a 0x8000 partition-table.bin
+python ../espsecure.py encrypt_flash_data -k my_flash_encryption_key.bin -o ota_data_initial-en.bin -a 0x11000 ota_data_initial.bin
+python ../espsecure.py encrypt_flash_data -k my_flash_encryption_key.bin -o light_example-en.bin -a 0x20000 light_example.bin
